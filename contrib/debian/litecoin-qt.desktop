@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Name=Daxstrov Core
+Comment=Connect to the Daxstrov P2P Network
+Comment[de]=Verbindung mit dem Daxstrov Peer-to-Peer-Netzwerk herstellen
+Comment[es]=Conectar a la red P2P de Daxstrov
+Comment[fr]=Se connecter au réseau pair à pair Daxstrov
+GenericName=Cryptocurrency Wallet
+Exec=Daxstrov-qt %u
+Terminal=false
+Type=Application
+Icon=Daxstrov128
+MimeType=x-scheme-handler/Daxstrov;
+Categories=Office;Finance;Network;
+Keywords=Daxstrov;crypto;cryptocurrency;wallet;blockchain;
+StartupNotify=true
+StartupWMClass=Daxstrov-qt

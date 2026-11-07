@@ -1,0 +1,824 @@
+
+
+
+
+
+2026-10-26T09:15:23Z Daxstrov Core version v0.21.5.8-gec1b6489a900d09cf5991e220dce089c77a232a2 (release build)
+2026-10-26T09:15:23Z Validating signatures for all blocks.
+2026-10-26T09:15:23Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2026-10-26T09:15:23Z Using the 'shani(1way,2way)' SHA256 implementation
+2026-10-26T09:15:23Z Using RdSeed as additional entropy source
+2026-10-26T09:15:23Z Using RdRand as an additional entropy source
+2026-10-26T09:15:23Z Default data directory /home/abhishek/.Daxstrov
+2026-10-26T09:15:23Z Using data directory /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest
+2026-10-26T09:15:23Z Config file: /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/Daxstrov.conf (not found, skipping)
+2026-10-26T09:15:23Z Command-line arg: datadir="./data"
+2026-10-26T09:15:23Z Command-line arg: regtest="1"
+2026-10-26T09:15:23Z Using at most 125 automatic connections (10240 file descriptors available)
+2026-10-26T09:15:23Z Warning: relative datadir option './data' specified, which will be interpreted relative to the current working directory '/mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master'. This is fragile, because if Daxstrov is started in the future from a different location, it will be unable to locate the current data files. There could also be data loss if Daxstrov is started while in a temporary directory.
+2026-10-26T09:15:23Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2026-10-26T09:15:23Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2026-10-26T09:15:23Z Script verification uses 1 additional threads
+2026-10-26T09:15:23Z scheduler thread start
+2026-10-26T09:15:23Z HTTP: creating work queue of depth 16
+2026-10-26T09:15:23Z Using random cookie authentication.
+2026-10-26T09:15:24Z Generated RPC authentication cookie /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/.cookie
+2026-10-26T09:15:24Z HTTP: starting 4 worker threads
+2026-10-26T09:15:24Z Using wallet directory /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets
+2026-10-26T09:15:24Z init message: Verifying wallet(s)...
+2026-10-26T09:15:24Z init message: Loading banlist...
+2026-10-26T09:15:24Z ERROR: DeserializeFileDB: Failed to open file /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/banlist.dat
+2026-10-26T09:15:24Z Invalid or missing banlist.dat; recreating
+2026-10-26T09:15:24Z SetNetworkActive: true
+2026-10-26T09:15:24Z Using /16 prefix for IP bucketing
+2026-10-26T09:15:24Z Cache configuration:
+2026-10-26T09:15:24Z * Using 2.0 MiB for block index database
+2026-10-26T09:15:24Z * Using 56.0 MiB for basic block filter index database
+2026-10-26T09:15:24Z * Using 8.0 MiB for chain state database
+2026-10-26T09:15:24Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2026-10-26T09:15:24Z init message: Loading block index...
+2026-10-26T09:15:24Z Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2026-10-26T09:15:24Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/blocks/index
+2026-10-26T09:15:24Z Opened LevelDB successfully
+2026-10-26T09:15:24Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/blocks/index: 0000000000000000
+2026-10-26T09:15:24Z LoadBlockIndexDB: last block file = 0
+2026-10-26T09:15:24Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2026-10-26T09:15:24Z Checking all blk files are present...
+2026-10-26T09:15:24Z Initializing databases...
+2026-10-26T09:15:24Z Pre-allocating up to position 0x1000000 in blk00000.dat
+2026-10-26T09:15:34Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/chainstate
+2026-10-26T09:15:34Z Opened LevelDB successfully
+2026-10-26T09:15:34Z Wrote new obfuscate key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/chainstate: 86b2a869c976f563
+2026-10-26T09:15:34Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/chainstate: 86b2a869c976f563
+2026-10-26T09:15:34Z Create(75) - File /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/leaf000000.dat does not exist. Creating it now.
+2026-10-26T09:15:34Z Create(75) - File /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/O000000.dat does not exist. Creating it now.
+2026-10-26T09:15:34Z init message: Rewinding blocks...
+2026-10-26T09:15:34Z  block index           10573ms
+2026-10-26T09:15:34Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/indexes/blockfilter/basic/db
+2026-10-26T09:15:35Z Opened LevelDB successfully
+2026-10-26T09:15:35Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/indexes/blockfilter/basic/db: 0000000000000000
+2026-10-26T09:15:35Z basic block filter index thread start
+2026-10-26T09:15:35Z basic block filter index is enabled
+2026-10-26T09:15:35Z loadblk thread start
+2026-10-26T09:15:35Z basic block filter index thread exit
+2026-10-26T09:15:35Z UpdateTip: new best=2410d07080b34af2d62e688488dbcff6fc920e5dbcb57023b2fc3cd0adc20f2d height=0 version=0x00000001 log2_work=1.000000 tx=1 date='2011-02-02T23:16:42Z' progress=1.000000 cache=0.0MiB(0txo)
+2026-10-26T09:15:35Z block tree size = 1
+2026-10-26T09:15:35Z nBestHeight = 0
+2026-10-26T09:15:35Z Failed to open mempool file from disk. Continuing anyway.
+2026-10-26T09:15:35Z loadblk thread exit
+2026-10-26T09:15:35Z torcontrol thread start
+2026-10-26T09:15:35Z Pre-allocating up to position 0x100000 in fltr00000.dat
+2026-10-26T09:15:35Z Bound to [::]:19444
+2026-10-26T09:15:35Z Bound to 0.0.0.0:19444
+2026-10-26T09:15:35Z Unable to bind to 127.0.0.1:19444 on this computer. Daxstrov Core is probably already running.
+2026-10-26T09:15:35Z init message: Loading P2P addresses...
+2026-10-26T09:15:35Z ERROR: DeserializeFileDB: Failed to open file /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/peers.dat
+2026-10-26T09:15:35Z Invalid or missing peers.dat; recreating
+2026-10-26T09:15:35Z ERROR: DeserializeFileDB: Failed to open file /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/anchors.dat
+2026-10-26T09:15:35Z 0 block-relay-only anchors will be tried for connections.
+2026-10-26T09:15:35Z init message: Starting network threads...
+2026-10-26T09:15:35Z net thread start
+2026-10-26T09:15:35Z init message: Done loading
+2026-10-26T09:15:35Z addcon thread start
+2026-10-26T09:15:35Z msghand thread start
+2026-10-26T09:15:35Z opencon thread start
+2026-10-26T09:15:35Z dnsseed thread start
+2026-10-26T09:15:35Z 0 addresses found from DNS seeds
+2026-10-26T09:15:35Z dnsseed thread exit
+2026-10-26T09:16:36Z Adding fixed seed nodes as DNS doesn't seem to be available.
+2026-10-26T09:25:09Z Potential stale tip detected, will try using extra outbound peer (last tip update: 574 seconds ago)
+2026-10-26T09:28:09Z Potential stale tip detected, will try using extra outbound peer (last tip update: 754 seconds ago)
+2026-10-26T09:29:52Z Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2026-10-26T09:29:52Z Using wallet /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets/testwallet/wallet.dat
+2026-10-26T09:29:52Z BerkeleyEnvironment::Open: LogDir=/mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets/testwallet/database ErrorFile=/mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets/testwallet/db.log
+2026-10-26T09:29:52Z init message: Loading wallet...
+2026-10-26T09:29:52Z [testwallet] Wallet File Version = 10500
+2026-10-26T09:29:52Z [testwallet] Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total. Unknown wallet records: 0
+2026-10-26T09:29:52Z [testwallet] External scriptPubKey Manager for output type 3 does not exist
+2026-10-26T09:30:36Z [testwallet] keypool added 3000 keys (1000 internal, 1000 MWEB), size=3000 (1000 internal, 1000 MWEB)
+2026-10-26T09:30:36Z [testwallet] LegacyScriptPubKeyMan::NewKeyPool rewrote keypool
+2026-10-26T09:30:36Z [testwallet] Wallet completed loading in           44166ms
+2026-10-26T09:30:36Z [testwallet] setKeyPool.size() = 2000
+2026-10-26T09:30:36Z [testwallet] mapWallet.size() = 0
+2026-10-26T09:30:36Z [testwallet] m_address_book.size() = 0
+2026-10-26T09:31:09Z Potential stale tip detected, will try using extra outbound peer (last tip update: 934 seconds ago)
+2026-10-26T09:31:48Z [testwallet] keypool reserve 1
+2026-10-26T09:31:48Z [testwallet] keypool keep 1
+
+
+
+
+
+2026-10-26T09:33:16Z Daxstrov Core version v0.21.5.8-gec1b6489a900d09cf5991e220dce089c77a232a2 (release build)
+2026-10-26T09:33:16Z Validating signatures for all blocks.
+2026-10-26T09:33:16Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2026-10-26T09:33:16Z Using the 'shani(1way,2way)' SHA256 implementation
+2026-10-26T09:33:16Z Using RdSeed as additional entropy source
+2026-10-26T09:33:16Z Using RdRand as an additional entropy source
+2026-10-26T09:33:17Z Default data directory /home/abhishek/.Daxstrov
+2026-10-26T09:33:17Z Using data directory /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest
+2026-10-26T09:33:17Z Config file: /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/Daxstrov.conf (not found, skipping)
+2026-10-26T09:33:17Z Command-line arg: datadir="./data"
+2026-10-26T09:33:17Z Command-line arg: regtest="1"
+2026-10-26T09:33:17Z Using at most 125 automatic connections (10240 file descriptors available)
+2026-10-26T09:33:17Z Warning: relative datadir option './data' specified, which will be interpreted relative to the current working directory '/mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master'. This is fragile, because if Daxstrov is started in the future from a different location, it will be unable to locate the current data files. There could also be data loss if Daxstrov is started while in a temporary directory.
+2026-10-26T09:33:17Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2026-10-26T09:33:17Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2026-10-26T09:33:17Z Script verification uses 1 additional threads
+2026-10-26T09:33:17Z scheduler thread start
+2026-10-26T09:33:17Z HTTP: creating work queue of depth 16
+2026-10-26T09:33:17Z Using random cookie authentication.
+2026-10-26T09:33:17Z Generated RPC authentication cookie /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/.cookie
+2026-10-26T09:33:17Z HTTP: starting 4 worker threads
+2026-10-26T09:33:17Z Using wallet directory /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets
+2026-10-26T09:33:17Z init message: Verifying wallet(s)...
+2026-10-26T09:33:17Z init message: Loading banlist...
+2026-10-26T09:33:17Z SetNetworkActive: true
+2026-10-26T09:33:17Z Using /16 prefix for IP bucketing
+2026-10-26T09:33:17Z Cache configuration:
+2026-10-26T09:33:17Z * Using 2.0 MiB for block index database
+2026-10-26T09:33:17Z * Using 56.0 MiB for basic block filter index database
+2026-10-26T09:33:17Z * Using 8.0 MiB for chain state database
+2026-10-26T09:33:17Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2026-10-26T09:33:17Z init message: Loading block index...
+2026-10-26T09:33:17Z Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2026-10-26T09:33:17Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/blocks/index
+2026-10-26T09:33:17Z Opened LevelDB successfully
+2026-10-26T09:33:17Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/blocks/index: 0000000000000000
+2026-10-26T09:33:17Z LoadBlockIndexDB: last block file = 0
+2026-10-26T09:33:17Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2026-10-26T09:33:17Z Checking all blk files are present...
+2026-10-26T09:33:17Z Initializing databases...
+2026-10-26T09:33:17Z Pre-allocating up to position 0x1000000 in blk00000.dat
+2026-10-26T09:33:27Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/chainstate
+2026-10-26T09:33:28Z Opened LevelDB successfully
+2026-10-26T09:33:28Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/chainstate: 86b2a869c976f563
+2026-10-26T09:33:28Z init message: Rewinding blocks...
+2026-10-26T09:33:28Z  block index           10752ms
+2026-10-26T09:33:28Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/indexes/blockfilter/basic/db
+2026-10-26T09:33:28Z Opened LevelDB successfully
+2026-10-26T09:33:28Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/indexes/blockfilter/basic/db: 0000000000000000
+2026-10-26T09:33:28Z basic block filter index thread start
+2026-10-26T09:33:28Z basic block filter index is enabled
+2026-10-26T09:33:28Z loadblk thread start
+2026-10-26T09:33:28Z basic block filter index thread exit
+2026-10-26T09:33:28Z UpdateTip: new best=2410d07080b34af2d62e688488dbcff6fc920e5dbcb57023b2fc3cd0adc20f2d height=0 version=0x00000001 log2_work=1.000000 tx=1 date='2011-02-02T23:16:42Z' progress=1.000000 cache=0.0MiB(0txo)
+2026-10-26T09:33:28Z block tree size = 1
+2026-10-26T09:33:28Z nBestHeight = 0
+2026-10-26T09:33:28Z Pre-allocating up to position 0x100000 in fltr00000.dat
+2026-10-26T09:33:28Z torcontrol thread start
+2026-10-26T09:33:28Z Failed to open mempool file from disk. Continuing anyway.
+2026-10-26T09:33:28Z Bound to [::]:19444
+2026-10-26T09:33:28Z Bound to 0.0.0.0:19444
+2026-10-26T09:33:28Z Unable to bind to 127.0.0.1:19444 on this computer. Daxstrov Core is probably already running.
+2026-10-26T09:33:28Z init message: Loading P2P addresses...
+2026-10-26T09:33:28Z loadblk thread exit
+2026-10-26T09:33:28Z Loaded 0 addresses from peers.dat  96ms
+2026-10-26T09:33:29Z ERROR: DeserializeFileDB: Failed to open file /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/anchors.dat
+2026-10-26T09:33:29Z 0 block-relay-only anchors will be tried for connections.
+2026-10-26T09:33:29Z init message: Starting network threads...
+2026-10-26T09:33:29Z init message: Done loading
+2026-10-26T09:33:29Z msghand thread start
+2026-10-26T09:33:29Z opencon thread start
+2026-10-26T09:33:29Z addcon thread start
+2026-10-26T09:33:29Z net thread start
+2026-10-26T09:33:29Z dnsseed thread start
+2026-10-26T09:33:29Z 0 addresses found from DNS seeds
+2026-10-26T09:33:29Z dnsseed thread exit
+2026-10-26T09:34:29Z Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2026-10-26T09:34:29Z Using wallet /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets/testwallet/wallet.dat
+2026-10-26T09:34:29Z BerkeleyEnvironment::Open: LogDir=/mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets/testwallet/database ErrorFile=/mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets/testwallet/db.log
+2026-10-26T09:34:30Z Adding fixed seed nodes as DNS doesn't seem to be available.
+2026-10-26T09:34:30Z init message: Loading wallet...
+2026-10-26T09:34:31Z [testwallet] Wallet File Version = 210000
+2026-10-26T09:34:31Z [testwallet] Keys: 3003 plaintext, 0 encrypted, 3003 w/ metadata, 3003 total. Unknown wallet records: 0
+2026-10-26T09:34:31Z [testwallet] Wallet completed loading in            1178ms
+2026-10-26T09:34:31Z [testwallet] keypool added 1 keys (0 internal, 0 MWEB), size=3000 (1000 internal, 1000 MWEB)
+2026-10-26T09:34:31Z [testwallet] setKeyPool.size() = 2000
+2026-10-26T09:34:31Z [testwallet] mapWallet.size() = 0
+2026-10-26T09:34:31Z [testwallet] m_address_book.size() = 0
+2026-10-26T09:34:54Z [testwallet] keypool reserve 2
+2026-10-26T09:34:54Z [testwallet] keypool keep 2
+
+
+
+
+
+2026-10-26T09:36:55Z Daxstrov Core version v0.21.5.8-gec1b6489a900d09cf5991e220dce089c77a232a2 (release build)
+2026-10-26T09:36:55Z Validating signatures for all blocks.
+2026-10-26T09:36:55Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2026-10-26T09:36:55Z Using the 'shani(1way,2way)' SHA256 implementation
+2026-10-26T09:36:55Z Using RdSeed as additional entropy source
+2026-10-26T09:36:55Z Using RdRand as an additional entropy source
+2026-10-26T09:36:56Z Default data directory /home/abhishek/.Daxstrov
+2026-10-26T09:36:56Z Using data directory /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest
+2026-10-26T09:36:56Z Config file: /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/Daxstrov.conf (not found, skipping)
+2026-10-26T09:36:56Z Command-line arg: daemon=""
+2026-10-26T09:36:56Z Command-line arg: datadir="./data"
+2026-10-26T09:36:56Z Command-line arg: regtest="1"
+2026-10-26T09:36:56Z Using at most 125 automatic connections (10240 file descriptors available)
+2026-10-26T09:36:56Z Warning: relative datadir option './data' specified, which will be interpreted relative to the current working directory '/mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master'. This is fragile, because if Daxstrov is started in the future from a different location, it will be unable to locate the current data files. There could also be data loss if Daxstrov is started while in a temporary directory.
+2026-10-26T09:36:56Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2026-10-26T09:36:56Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2026-10-26T09:36:56Z Script verification uses 1 additional threads
+2026-10-26T09:36:56Z scheduler thread start
+2026-10-26T09:36:56Z HTTP: creating work queue of depth 16
+2026-10-26T09:36:56Z Using random cookie authentication.
+2026-10-26T09:36:56Z Generated RPC authentication cookie /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/.cookie
+2026-10-26T09:36:56Z HTTP: starting 4 worker threads
+2026-10-26T09:36:56Z Using wallet directory /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets
+2026-10-26T09:36:56Z init message: Verifying wallet(s)...
+2026-10-26T09:36:56Z init message: Loading banlist...
+2026-10-26T09:36:56Z SetNetworkActive: true
+2026-10-26T09:36:56Z Using /16 prefix for IP bucketing
+2026-10-26T09:36:56Z Cache configuration:
+2026-10-26T09:36:56Z * Using 2.0 MiB for block index database
+2026-10-26T09:36:56Z * Using 56.0 MiB for basic block filter index database
+2026-10-26T09:36:56Z * Using 8.0 MiB for chain state database
+2026-10-26T09:36:56Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2026-10-26T09:36:56Z init message: Loading block index...
+2026-10-26T09:36:56Z Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2026-10-26T09:36:56Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/blocks/index
+2026-10-26T09:36:56Z Opened LevelDB successfully
+2026-10-26T09:36:56Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/blocks/index: 0000000000000000
+2026-10-26T09:36:56Z LoadBlockIndexDB: last block file = 0
+2026-10-26T09:36:56Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2026-10-26T09:36:56Z Checking all blk files are present...
+2026-10-26T09:36:56Z Initializing databases...
+2026-10-26T09:36:56Z Pre-allocating up to position 0x1000000 in blk00000.dat
+2026-10-26T09:37:06Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/chainstate
+2026-10-26T09:37:06Z Opened LevelDB successfully
+2026-10-26T09:37:06Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/chainstate: 86b2a869c976f563
+2026-10-26T09:37:06Z init message: Rewinding blocks...
+2026-10-26T09:37:06Z  block index           10046ms
+2026-10-26T09:37:06Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/indexes/blockfilter/basic/db
+2026-10-26T09:37:06Z Opened LevelDB successfully
+2026-10-26T09:37:06Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/indexes/blockfilter/basic/db: 0000000000000000
+2026-10-26T09:37:06Z basic block filter index thread start
+2026-10-26T09:37:06Z basic block filter index is enabled
+2026-10-26T09:37:06Z basic block filter index thread exit
+2026-10-26T09:37:06Z loadblk thread start
+2026-10-26T09:37:06Z UpdateTip: new best=2410d07080b34af2d62e688488dbcff6fc920e5dbcb57023b2fc3cd0adc20f2d height=0 version=0x00000001 log2_work=1.000000 tx=1 date='2011-02-02T23:16:42Z' progress=1.000000 cache=0.0MiB(0txo)
+2026-10-26T09:37:06Z block tree size = 1
+2026-10-26T09:37:06Z nBestHeight = 0
+2026-10-26T09:37:06Z Bound to [::]:19444
+2026-10-26T09:37:06Z torcontrol thread start
+2026-10-26T09:37:06Z Failed to open mempool file from disk. Continuing anyway.
+2026-10-26T09:37:06Z Bound to 0.0.0.0:19444
+2026-10-26T09:37:06Z Unable to bind to 127.0.0.1:19444 on this computer. Daxstrov Core is probably already running.
+2026-10-26T09:37:06Z init message: Loading P2P addresses...
+2026-10-26T09:37:06Z loadblk thread exit
+2026-10-26T09:37:06Z Pre-allocating up to position 0x100000 in fltr00000.dat
+2026-10-26T09:37:06Z Loaded 0 addresses from peers.dat  7ms
+2026-10-26T09:37:06Z ERROR: DeserializeFileDB: Failed to open file /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/anchors.dat
+2026-10-26T09:37:06Z 0 block-relay-only anchors will be tried for connections.
+2026-10-26T09:37:06Z init message: Starting network threads...
+2026-10-26T09:37:06Z init message: Done loading
+2026-10-26T09:37:06Z opencon thread start
+2026-10-26T09:37:06Z net thread start
+2026-10-26T09:37:06Z addcon thread start
+2026-10-26T09:37:06Z dnsseed thread start
+2026-10-26T09:37:06Z msghand thread start
+2026-10-26T09:37:06Z 0 addresses found from DNS seeds
+2026-10-26T09:37:06Z dnsseed thread exit
+2026-10-26T09:38:05Z Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2026-10-26T09:38:05Z Using wallet /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets/testwallet/wallet.dat
+2026-10-26T09:38:05Z BerkeleyEnvironment::Open: LogDir=/mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets/testwallet/database ErrorFile=/mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets/testwallet/db.log
+2026-10-26T09:38:07Z init message: Loading wallet...
+2026-10-26T09:38:07Z Adding fixed seed nodes as DNS doesn't seem to be available.
+2026-10-26T09:38:08Z [testwallet] Wallet File Version = 210000
+2026-10-26T09:38:08Z [testwallet] Keys: 3004 plaintext, 0 encrypted, 3004 w/ metadata, 3004 total. Unknown wallet records: 0
+2026-10-26T09:38:08Z [testwallet] Wallet completed loading in            1102ms
+2026-10-26T09:38:08Z [testwallet] keypool added 1 keys (0 internal, 0 MWEB), size=3000 (1000 internal, 1000 MWEB)
+2026-10-26T09:38:08Z [testwallet] setKeyPool.size() = 2000
+2026-10-26T09:38:08Z [testwallet] mapWallet.size() = 0
+2026-10-26T09:38:08Z [testwallet] m_address_book.size() = 0
+2026-10-26T09:38:26Z [testwallet] keypool reserve 3
+2026-10-26T09:38:26Z [testwallet] keypool keep 3
+
+
+
+
+
+2026-10-26T09:41:07Z Daxstrov Core version v0.21.5.8-gec1b6489a900d09cf5991e220dce089c77a232a2 (release build)
+2026-10-26T09:41:08Z Validating signatures for all blocks.
+2026-10-26T09:41:08Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2026-10-26T09:41:08Z Using the 'shani(1way,2way)' SHA256 implementation
+2026-10-26T09:41:08Z Using RdSeed as additional entropy source
+2026-10-26T09:41:08Z Using RdRand as an additional entropy source
+2026-10-26T09:41:08Z Default data directory /home/abhishek/.Daxstrov
+2026-10-26T09:41:08Z Using data directory /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest
+2026-10-26T09:41:08Z Config file: /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/Daxstrov.conf (not found, skipping)
+2026-10-26T09:41:08Z Command-line arg: addresstype="legacy"
+2026-10-26T09:41:08Z Command-line arg: daemon=""
+2026-10-26T09:41:08Z Command-line arg: datadir="./data"
+2026-10-26T09:41:08Z Command-line arg: regtest="1"
+2026-10-26T09:41:08Z Using at most 125 automatic connections (10240 file descriptors available)
+2026-10-26T09:41:08Z Warning: relative datadir option './data' specified, which will be interpreted relative to the current working directory '/mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master'. This is fragile, because if Daxstrov is started in the future from a different location, it will be unable to locate the current data files. There could also be data loss if Daxstrov is started while in a temporary directory.
+2026-10-26T09:41:08Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2026-10-26T09:41:08Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2026-10-26T09:41:08Z Script verification uses 1 additional threads
+2026-10-26T09:41:08Z scheduler thread start
+2026-10-26T09:41:08Z HTTP: creating work queue of depth 16
+2026-10-26T09:41:08Z Using random cookie authentication.
+2026-10-26T09:41:08Z Generated RPC authentication cookie /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/.cookie
+2026-10-26T09:41:08Z HTTP: starting 4 worker threads
+2026-10-26T09:41:08Z Using wallet directory /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets
+2026-10-26T09:41:08Z init message: Verifying wallet(s)...
+2026-10-26T09:41:08Z init message: Loading banlist...
+2026-10-26T09:41:08Z SetNetworkActive: true
+2026-10-26T09:41:08Z Using /16 prefix for IP bucketing
+2026-10-26T09:41:08Z Cache configuration:
+2026-10-26T09:41:08Z * Using 2.0 MiB for block index database
+2026-10-26T09:41:08Z * Using 56.0 MiB for basic block filter index database
+2026-10-26T09:41:08Z * Using 8.0 MiB for chain state database
+2026-10-26T09:41:08Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2026-10-26T09:41:08Z init message: Loading block index...
+2026-10-26T09:41:08Z Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2026-10-26T09:41:08Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/blocks/index
+2026-10-26T09:41:08Z Opened LevelDB successfully
+2026-10-26T09:41:08Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/blocks/index: 0000000000000000
+2026-10-26T09:41:08Z LoadBlockIndexDB: last block file = 0
+2026-10-26T09:41:08Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2026-10-26T09:41:08Z Checking all blk files are present...
+2026-10-26T09:41:08Z Initializing databases...
+2026-10-26T09:41:08Z Pre-allocating up to position 0x1000000 in blk00000.dat
+2026-10-26T09:41:19Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/chainstate
+2026-10-26T09:41:19Z Opened LevelDB successfully
+2026-10-26T09:41:19Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/chainstate: 86b2a869c976f563
+2026-10-26T09:41:19Z init message: Rewinding blocks...
+2026-10-26T09:41:19Z  block index           10833ms
+2026-10-26T09:41:19Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/indexes/blockfilter/basic/db
+2026-10-26T09:41:19Z Opened LevelDB successfully
+2026-10-26T09:41:19Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/indexes/blockfilter/basic/db: 0000000000000000
+2026-10-26T09:41:19Z basic block filter index thread start
+2026-10-26T09:41:19Z basic block filter index is enabled
+2026-10-26T09:41:19Z basic block filter index thread exit
+2026-10-26T09:41:19Z loadblk thread start
+2026-10-26T09:41:19Z UpdateTip: new best=2410d07080b34af2d62e688488dbcff6fc920e5dbcb57023b2fc3cd0adc20f2d height=0 version=0x00000001 log2_work=1.000000 tx=1 date='2011-02-02T23:16:42Z' progress=1.000000 cache=0.0MiB(0txo)
+2026-10-26T09:41:19Z block tree size = 1
+2026-10-26T09:41:19Z nBestHeight = 0
+2026-10-26T09:41:19Z Bound to [::]:19444
+2026-10-26T09:41:19Z Failed to open mempool file from disk. Continuing anyway.
+2026-10-26T09:41:19Z loadblk thread exit
+2026-10-26T09:41:19Z torcontrol thread start
+2026-10-26T09:41:19Z Bound to 0.0.0.0:19444
+2026-10-26T09:41:19Z Unable to bind to 127.0.0.1:19444 on this computer. Daxstrov Core is probably already running.
+2026-10-26T09:41:19Z init message: Loading P2P addresses...
+2026-10-26T09:41:19Z Loaded 0 addresses from peers.dat  8ms
+2026-10-26T09:41:19Z ERROR: DeserializeFileDB: Failed to open file /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/anchors.dat
+2026-10-26T09:41:19Z 0 block-relay-only anchors will be tried for connections.
+2026-10-26T09:41:19Z init message: Starting network threads...
+2026-10-26T09:41:19Z Pre-allocating up to position 0x100000 in fltr00000.dat
+2026-10-26T09:41:19Z net thread start
+2026-10-26T09:41:19Z opencon thread start
+2026-10-26T09:41:19Z init message: Done loading
+2026-10-26T09:41:19Z addcon thread start
+2026-10-26T09:41:19Z dnsseed thread start
+2026-10-26T09:41:19Z msghand thread start
+2026-10-26T09:41:19Z 0 addresses found from DNS seeds
+2026-10-26T09:41:19Z dnsseed thread exit
+2026-10-26T09:42:04Z Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2026-10-26T09:42:04Z Using wallet /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets/testwallet/wallet.dat
+2026-10-26T09:42:04Z BerkeleyEnvironment::Open: LogDir=/mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets/testwallet/database ErrorFile=/mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/regtest/wallets/testwallet/db.log
+2026-10-26T09:42:05Z init message: Loading wallet...
+2026-10-26T09:42:06Z [testwallet] Wallet File Version = 210000
+2026-10-26T09:42:06Z [testwallet] Keys: 3005 plaintext, 0 encrypted, 3005 w/ metadata, 3005 total. Unknown wallet records: 0
+2026-10-26T09:42:06Z [testwallet] Wallet completed loading in            1026ms
+2026-10-26T09:42:06Z [testwallet] keypool added 1 keys (0 internal, 0 MWEB), size=3000 (1000 internal, 1000 MWEB)
+2026-10-26T09:42:06Z [testwallet] setKeyPool.size() = 2000
+2026-10-26T09:42:06Z [testwallet] mapWallet.size() = 0
+2026-10-26T09:42:06Z [testwallet] m_address_book.size() = 0
+2026-10-26T09:42:20Z Adding fixed seed nodes as DNS doesn't seem to be available.
+2026-10-26T09:42:24Z [testwallet] keypool reserve 4
+2026-10-26T09:42:24Z [testwallet] keypool keep 4
+2026-10-26T09:42:24Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:42:24Z Pre-allocating up to position 0x100000 in rev00000.dat
+2026-10-26T09:42:25Z Leaving InitialBlockDownload (latching to false)
+2026-10-26T09:42:25Z UpdateTip: new best=1dc1f8c369e36e768a75d798d8fe395930fd01ff4ab3074ee9b855ad6af6e0a6 height=1 version=0x20000000 log2_work=2.000000 tx=2 date='2026-10-26T09:42:24Z' progress=1.000000 cache=0.0MiB(1txo)
+2026-10-26T09:42:25Z [testwallet] AddToWallet 0a4682d9162d7e31edb92ec44e75f43a193f8d480f141ed1677a829f89817826  new
+2026-10-26T09:46:41Z [testwallet] keypool added 1 keys (0 internal, 0 MWEB), size=3000 (1000 internal, 1000 MWEB)
+2026-10-26T09:46:41Z [testwallet] keypool reserve 5
+2026-10-26T09:46:41Z [testwallet] keypool keep 5
+2026-10-26T09:46:41Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:46:41Z UpdateTip: new best=1c789ff980307e3737dc5655b7a8ba335c5b12082ddf7a2178bcc2d662aab1ee height=2 version=0x20000000 log2_work=2.584963 tx=3 date='2026-10-26T09:46:41Z' progress=1.000000 cache=0.0MiB(2txo)
+2026-10-26T09:46:41Z [testwallet] AddToWallet 2e759795bb780fc5c158b8f53a3310158c8b15c8f12229130b7e4afee4499653  new
+2026-10-26T09:47:52Z [testwallet] keypool added 1 keys (0 internal, 0 MWEB), size=3000 (1000 internal, 1000 MWEB)
+2026-10-26T09:47:52Z [testwallet] keypool reserve 6
+2026-10-26T09:47:52Z [testwallet] keypool keep 6
+2026-10-26T09:47:53Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:47:53Z UpdateTip: new best=8830b38713b33f5fa511ed5008d155fd55d2e5b83f9f09b90940e25c378f52fd height=3 version=0x20000000 log2_work=3.000000 tx=4 date='2026-10-26T09:47:53Z' progress=1.000000 cache=0.0MiB(3txo)
+2026-10-26T09:47:53Z [testwallet] AddToWallet 162a16d5ee14db9d2e3e343a6aa47a8402083fa64518161a0c97e8fe077964d8  new
+2026-10-26T09:52:48Z [testwallet] keypool added 1 keys (0 internal, 0 MWEB), size=3000 (1000 internal, 1000 MWEB)
+2026-10-26T09:52:48Z [testwallet] keypool reserve 7
+2026-10-26T09:52:48Z [testwallet] keypool keep 7
+2026-10-26T09:52:48Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:48Z UpdateTip: new best=cbedf07be89fc20e292dd6816e9840c2a821c2eae3e8a88d7da4944e0c67fe33 height=4 version=0x20000000 log2_work=3.321928 tx=5 date='2026-10-26T09:52:48Z' progress=1.000000 cache=0.0MiB(4txo)
+2026-10-26T09:52:48Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:48Z UpdateTip: new best=662e2e8b563a1a406f3592d88afad2fceb7e76ef95d59391e86a9621a7263e54 height=5 version=0x20000000 log2_work=3.584963 tx=6 date='2026-10-26T09:52:48Z' progress=1.000000 cache=0.0MiB(5txo)
+2026-10-26T09:52:48Z [testwallet] AddToWallet f75078b35dfc128caa833dfb222e06071b9011b9140384c6d348ba9315efdc43  new
+2026-10-26T09:52:48Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:48Z UpdateTip: new best=3cd43292854460ee3fe7bb79b4516fc06fe8b25bd80f11df78e1b64f54391f3c height=6 version=0x20000000 log2_work=3.807355 tx=7 date='2026-10-26T09:52:48Z' progress=1.000000 cache=0.0MiB(6txo)
+2026-10-26T09:52:48Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:48Z UpdateTip: new best=f8a0e3522384c79db21cfc3bdcc32f16221a3ef963b69b688012e62137bee09b height=7 version=0x20000000 log2_work=4.000000 tx=8 date='2026-10-26T09:52:48Z' progress=1.000000 cache=0.0MiB(7txo)
+2026-10-26T09:52:48Z [testwallet] AddToWallet cbc0da9ce4f93f9fc6518e1e5504790bc2ea10492919103b873bb1cc02f7ed79  new
+2026-10-26T09:52:48Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z UpdateTip: new best=267bfaaac78bf8c1f6960fc3ae689066e3c944b45e75a78a22b9dbf7d009ca27 height=8 version=0x20000000 log2_work=4.169925 tx=9 date='2026-10-26T09:52:49Z' progress=1.000000 cache=0.0MiB(8txo)
+2026-10-26T09:52:49Z [testwallet] AddToWallet b53f0b3a5a4fb90c72000157265274fe874d92d45d4a0b25b21ca678a4014a6a  new
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z UpdateTip: new best=272e54162587938b5a4c010e4eec07c2499a58e7a2158f94ca1d90fb9442585b height=9 version=0x20000000 log2_work=4.321928 tx=10 date='2026-10-26T09:52:49Z' progress=1.000000 cache=0.0MiB(9txo)
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z UpdateTip: new best=26aa214e6297dea6417cf3b53dc2b4bb3fcfaab0a4b9a27814dcf55f43bc5a69 height=10 version=0x20000000 log2_work=4.459432 tx=11 date='2026-10-26T09:52:49Z' progress=1.000000 cache=0.0MiB(10txo)
+2026-10-26T09:52:49Z [testwallet] AddToWallet 43e6b25bf0b9c80850eb5fd8e1b0b25e3415ad0340064b65600a2df7fdd662a1  new
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z UpdateTip: new best=f89d9f2a23bda99e5eacb836adf734f4c590d79d837a19140969387fab097017 height=11 version=0x20000000 log2_work=4.584963 tx=12 date='2026-10-26T09:52:49Z' progress=1.000000 cache=0.0MiB(11txo)
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z UpdateTip: new best=e0d5cdbe2c97d7ac81d9fd4c0d7b164e14ab4cae19d7936560c17008920a2689 height=12 version=0x20000000 log2_work=4.700440 tx=13 date='2026-10-26T09:52:49Z' progress=1.000000 cache=0.0MiB(12txo)
+2026-10-26T09:52:49Z [testwallet] AddToWallet 04541a7223dbc0738d422f773ba1a98949b9bf383ba57f486f29334dad92c1fc  new
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z UpdateTip: new best=e955b15c32a9d32962059da65b79117ee5257791033a7426d6102b31177d45e5 height=13 version=0x20000000 log2_work=4.807355 tx=14 date='2026-10-26T09:52:49Z' progress=1.000000 cache=0.0MiB(13txo)
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z UpdateTip: new best=9f2e84fb590cb2e567e6f75902ab821601ab6ce22184fc335f9cdafd86b20a19 height=14 version=0x20000000 log2_work=4.906891 tx=15 date='2026-10-26T09:52:50Z' progress=1.000000 cache=0.0MiB(14txo)
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z [testwallet] AddToWallet 11232d4a6c53725f45cbc8867f156fe0b37bd8c52f8099add6b16ec13b3f1596  new
+2026-10-26T09:52:49Z UpdateTip: new best=ed1e5c3b26aee535f31f0a395911c113d0885916f7f7f9243da64cc564d340e2 height=15 version=0x20000000 log2_work=5.000000 tx=16 date='2026-10-26T09:52:50Z' progress=1.000000 cache=0.0MiB(15txo)
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z [testwallet] AddToWallet db81fead6da0e5e4fa87bcdc1867c61210909529484c8a80bae5fa91b6a57157  new
+2026-10-26T09:52:49Z [testwallet] AddToWallet 249149e7d8903fc53f3cff8c82c4bb173797bd5f30632f8bc5d98a47b5d1da08  new
+2026-10-26T09:52:49Z [testwallet] AddToWallet 7e58044588d23b3e00908ce291e49da4d3510d8791a1029d267c289761e49df1  new
+2026-10-26T09:52:49Z [testwallet] AddToWallet b2c442f30226f152903dcdcb81fad97cb08a6512b8836ceed643e43be0c0a40d  new
+2026-10-26T09:52:49Z [testwallet] AddToWallet 855a93ef9b27c7fb8fbd2432233c62ca6d15639f8734e2f7a13ef384b4b9576c  new
+2026-10-26T09:52:49Z [testwallet] AddToWallet edcd65ab187d77fb2cbd4477735ba66bd570e0e7242f851ea04276108b0076ac  new
+2026-10-26T09:52:49Z UpdateTip: new best=1fd1e1e6257f5b9fb211acb0e50a062d182136ddf4d04406090f80e00b0e1ed7 height=16 version=0x20000000 log2_work=5.087463 tx=17 date='2026-10-26T09:52:50Z' progress=1.000000 cache=0.0MiB(16txo)
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z UpdateTip: new best=e37b1612cc07fa8176905dc783adc64baaaf3b7270223afd8e16ffff44d2c941 height=17 version=0x20000000 log2_work=5.169925 tx=18 date='2026-10-26T09:52:50Z' progress=1.000000 cache=0.0MiB(17txo)
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z UpdateTip: new best=3baf1cffc100f590e259eecc205e57ff7524666262fd5b34968e7c2ea0716bff height=18 version=0x20000000 log2_work=5.247928 tx=19 date='2026-10-26T09:52:50Z' progress=1.000000 cache=0.0MiB(18txo)
+2026-10-26T09:52:49Z [testwallet] AddToWallet f47cb2ae7d82456ab2e1bb023f03c0812883df2360008c717fefcc3135c2ffba  new
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z UpdateTip: new best=85970991a5f5608f831ace425a0e74cf3089088200c0649d3dee7e43abccf5c9 height=19 version=0x20000000 log2_work=5.321928 tx=20 date='2026-10-26T09:52:50Z' progress=1.000000 cache=0.0MiB(19txo)
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z UpdateTip: new best=edf4e2da2d763b5a4c6fed4dfab5e49e172a36f8a67199aa9251491ff4eea0ae height=20 version=0x20000000 log2_work=5.392317 tx=21 date='2026-10-26T09:52:51Z' progress=1.000000 cache=0.0MiB(20txo)
+2026-10-26T09:52:49Z [testwallet] AddToWallet bb2e9ef40c38fc7a1f86f31be7d15d9743b2a227bea01dd7f71a5cb4ea8a9ea4  new
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z UpdateTip: new best=2b9d1125054c2013d7fcbbc2afa03ec74686a47361b49ff096bc0c0cb229bb49 height=21 version=0x20000000 log2_work=5.459432 tx=22 date='2026-10-26T09:52:51Z' progress=1.000000 cache=0.0MiB(21txo)
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z UpdateTip: new best=e02fa8fdcdc24e66f1491008b64209621b5964177f3acae1658852c14ec15528 height=22 version=0x20000000 log2_work=5.523562 tx=23 date='2026-10-26T09:52:51Z' progress=1.000000 cache=0.0MiB(22txo)
+2026-10-26T09:52:49Z [testwallet] AddToWallet a8bcf2e027ac2dfd9e2f8113a1af77c6267c1f5570436a4f9218cda8980f1de7  new
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:49Z UpdateTip: new best=b428cd8de21c47260f9c5a085ad666c17ed26481ffb88077b78b265fbb1df55f height=23 version=0x20000000 log2_work=5.584963 tx=24 date='2026-10-26T09:52:51Z' progress=1.000000 cache=0.0MiB(23txo)
+2026-10-26T09:52:49Z [testwallet] AddToWallet fc3cf46124db77fe3bc602fddd065ab69217dd72c8f005bc255fd78608176e36  new
+2026-10-26T09:52:49Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z UpdateTip: new best=046de2493b93ed3ba704d6520fe495b96ccffa703eb7d39051adf5d036553eb9 height=24 version=0x20000000 log2_work=5.643856 tx=25 date='2026-10-26T09:52:51Z' progress=1.000000 cache=0.0MiB(24txo)
+2026-10-26T09:52:50Z [testwallet] AddToWallet ea53bc0a12d3cfb87759338d409b88a69900c10d06ff91119a3484c86fc6edd4  new
+2026-10-26T09:52:50Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z UpdateTip: new best=7672c1998c5d64593c85e5a8d0cbc6b7c6919d0a80fd7296c195d7d0b3bd0ace height=25 version=0x20000000 log2_work=5.700440 tx=26 date='2026-10-26T09:52:51Z' progress=1.000000 cache=0.0MiB(25txo)
+2026-10-26T09:52:50Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z UpdateTip: new best=ee674b128efd604b6cc408506c7aa735ddf4ce474437309129525ed8ef902e07 height=26 version=0x20000000 log2_work=5.754888 tx=27 date='2026-10-26T09:52:52Z' progress=1.000000 cache=0.0MiB(26txo)
+2026-10-26T09:52:50Z [testwallet] AddToWallet 41003213f53135ac4cd2776328f26bf546fe88232b987fcea1b67b1d3d2959c8  new
+2026-10-26T09:52:50Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z UpdateTip: new best=d41201dbd24bc954eecc13a842de857094de9ed7db84bcbe82bd11c4936d8aef height=27 version=0x20000000 log2_work=5.807355 tx=28 date='2026-10-26T09:52:52Z' progress=1.000000 cache=0.0MiB(27txo)
+2026-10-26T09:52:50Z [testwallet] AddToWallet 0c037734f1b2e80a4c4559c02e1b99de960180f771c4e564ef98292345ea2e8a  new
+2026-10-26T09:52:50Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z UpdateTip: new best=7c48b5c0c972f69c6b3309c0462d5fed382c2a0ea475e70b1db361339c9d5f83 height=28 version=0x20000000 log2_work=5.857981 tx=29 date='2026-10-26T09:52:52Z' progress=1.000000 cache=0.0MiB(28txo)
+2026-10-26T09:52:50Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z [testwallet] AddToWallet 302732e129282455d4cb22dacd46e4c6f2c4d7c475c4bea69ca94da39ee8443f  new
+2026-10-26T09:52:50Z [testwallet] AddToWallet c008666c8b8a188fbb6a8f319d1bb6f056842341b57dfe46628a4d952ca718cb  new
+2026-10-26T09:52:50Z [testwallet] AddToWallet ac82e0e020a372355723c63abede3fc28493fdbab0bee4acca59e75fa210668c  new
+2026-10-26T09:52:50Z [testwallet] AddToWallet d07c5eb29d635d34ace5cdd3c4696f2744d81d792ad3215d3fbbc396a0c2e346  new
+2026-10-26T09:52:50Z [testwallet] AddToWallet 4ac4db7716ad5f196ea6f4092944930399ddb30b1f5ecace5a11a572149cda82  new
+2026-10-26T09:52:50Z [testwallet] AddToWallet 674f23673b45b8e4faefa34019bdacef73ed3c16737908da3089bb6e0bac0f07  new
+2026-10-26T09:52:50Z UpdateTip: new best=6872f02a6f3327553da8885f48e340f56d54716af460d6a3c231269337c0ff3e height=29 version=0x20000000 log2_work=5.906891 tx=30 date='2026-10-26T09:52:52Z' progress=1.000000 cache=0.0MiB(29txo)
+2026-10-26T09:52:50Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z UpdateTip: new best=2bd1b9edc1dc9e959af64a9b9d8f0a71bccb2af1e7b1db99494db5b115e721d3 height=30 version=0x20000000 log2_work=5.954196 tx=31 date='2026-10-26T09:52:52Z' progress=1.000000 cache=0.0MiB(30txo)
+2026-10-26T09:52:50Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z UpdateTip: new best=919fc7467c2af470feefee951a66f7bbfc65af114d2270a18124e1b317b4baa1 height=31 version=0x20000000 log2_work=6.000000 tx=32 date='2026-10-26T09:52:52Z' progress=1.000000 cache=0.0MiB(31txo)
+2026-10-26T09:52:50Z [testwallet] AddToWallet 56ad12ec1ca83cf0605f66ae8f8c0bbc68eaff42548dd23a3e1a61c91522abdb  new
+2026-10-26T09:52:50Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z UpdateTip: new best=897fd1a6d14adc8f6839dd61754d5726c870c77683221583bdc3b9efeb325739 height=32 version=0x20000000 log2_work=6.044394 tx=33 date='2026-10-26T09:52:53Z' progress=1.000000 cache=0.0MiB(32txo)
+2026-10-26T09:52:50Z [testwallet] AddToWallet db646d39e1b37d09e7d8030496b4fd69772e7ffb33ef8fe3b1a53c6729462443  new
+2026-10-26T09:52:50Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z UpdateTip: new best=15d7011c0582fe6e583d62bd36bcd9024e642b08b1ea89a8ec79c0170f13b8e0 height=33 version=0x20000000 log2_work=6.087463 tx=34 date='2026-10-26T09:52:53Z' progress=1.000000 cache=0.0MiB(33txo)
+2026-10-26T09:52:50Z [testwallet] AddToWallet f01ad71c069c5f4515fa111b1779f5fd305acac03b661749c2bdf7439055eaaa  new
+2026-10-26T09:52:50Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z UpdateTip: new best=2f684b92f66ca85366060212a7b722cf0feb66126a52a11fb79d9b60b885812d height=34 version=0x20000000 log2_work=6.129283 tx=35 date='2026-10-26T09:52:53Z' progress=1.000000 cache=0.0MiB(34txo)
+2026-10-26T09:52:50Z [testwallet] AddToWallet 1ef550684ef18ba279ac0373633a81699bfd006d0db0205df673a4e7a77c5189  new
+2026-10-26T09:52:50Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z UpdateTip: new best=afc845645c58348938792e5dad5a205ce22e7869ea406e9c02973bf7ffccb250 height=35 version=0x20000000 log2_work=6.169925 tx=36 date='2026-10-26T09:52:53Z' progress=1.000000 cache=0.0MiB(35txo)
+2026-10-26T09:52:50Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z UpdateTip: new best=2c0218295a32d817e7049f16790b4c3b588b18a3d0baacbf94e5d7dbadbd7b37 height=36 version=0x20000000 log2_work=6.209453 tx=37 date='2026-10-26T09:52:53Z' progress=1.000000 cache=0.0MiB(36txo)
+2026-10-26T09:52:50Z [testwallet] AddToWallet f4039b9b0efc96f870f5470dbbe8acc51c69faa4dea5ce2a16456e4f207f7535  new
+2026-10-26T09:52:50Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z UpdateTip: new best=b1e1cb724709936a12bdb07268eae344287afa35b75f727dd69d62270a3d58d2 height=37 version=0x20000000 log2_work=6.247928 tx=38 date='2026-10-26T09:52:53Z' progress=1.000000 cache=0.0MiB(37txo)
+2026-10-26T09:52:50Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z UpdateTip: new best=ffdaab9216825d11d6bf103709a093339192a6b0ef742a268fbb2054c0f357b4 height=38 version=0x20000000 log2_work=6.285402 tx=39 date='2026-10-26T09:52:54Z' progress=1.000000 cache=0.0MiB(38txo)
+2026-10-26T09:52:50Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:50Z UpdateTip: new best=4d68ab2f4dd0ab033bbf50544890999c4b42466b0f85fe4dfd85266f02bb85b5 height=39 version=0x20000000 log2_work=6.321928 tx=40 date='2026-10-26T09:52:54Z' progress=1.000000 cache=0.0MiB(39txo)
+2026-10-26T09:52:51Z [testwallet] AddToWallet 8cf66b9455c27edcc68017485c976d20fbabbbb57e0817d0114120db42e64677  new
+2026-10-26T09:52:51Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:51Z UpdateTip: new best=dc9ce66439e515eb049d8a9b11e857641c553b20f1ac8bf71087c07cc830bae9 height=40 version=0x20000000 log2_work=6.357552 tx=41 date='2026-10-26T09:52:54Z' progress=1.000000 cache=0.0MiB(40txo)
+2026-10-26T09:52:51Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:51Z [testwallet] AddToWallet 1fc6995dd888b1e08ba5e0cfe5f45db5021441be8a31127afc427ee111f4b611  new
+2026-10-26T09:52:51Z [testwallet] AddToWallet 1f131a379d4ba91746cc08a78d8313c33e5bbfbc92e06a96f84547cc0deaa92b  new
+2026-10-26T09:52:51Z [testwallet] AddToWallet 369db03273431fda8239fb32126b1d893278804418620a85a9a546b1e529c7bb  new
+2026-10-26T09:52:51Z [testwallet] AddToWallet 63d6b8f3777ebbba75041629fcd655ad64b3cd5595b8fb10769a60e105a8ea5e  new
+2026-10-26T09:52:51Z [testwallet] AddToWallet a0a1ff85db90d1f00df710815ad8eee216027362e7ba36ef22756007a5ab8775  new
+2026-10-26T09:52:51Z [testwallet] AddToWallet 92ab730a284c749802e6ca92b49cf543fb69034b93b6e82a424580aac5e23822  new
+2026-10-26T09:52:51Z UpdateTip: new best=8252c16ebda303a1e9052d5152b7757d83f93c9261df839b11f049e28f5734cf height=41 version=0x20000000 log2_work=6.392317 tx=42 date='2026-10-26T09:52:54Z' progress=1.000000 cache=0.0MiB(41txo)
+2026-10-26T09:52:51Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:51Z UpdateTip: new best=2832fef5aa9a1bf52d257d716a0eef64a7ba42f270e1651e22413045a570ca5c height=42 version=0x20000000 log2_work=6.426265 tx=43 date='2026-10-26T09:52:54Z' progress=1.000000 cache=0.0MiB(42txo)
+2026-10-26T09:52:51Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:51Z [testwallet] AddToWallet a7bf7cb6baa7d8a5d89b6b0e9a3ad174caf23e917a57f36762ffa3957d60f28b  new
+2026-10-26T09:52:51Z UpdateTip: new best=ef9b7e2ae1be6fe61340e0745ee8d4f906a3a102692dd813aa9f01f00e01b80b height=43 version=0x20000000 log2_work=6.459432 tx=44 date='2026-10-26T09:52:54Z' progress=1.000000 cache=0.0MiB(43txo)
+2026-10-26T09:52:51Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:51Z UpdateTip: new best=d3a0a3ae4c3ecf38b6a1f0ec13cb580d1dd169f73fd7badcfe796b9f3ffdba1f height=44 version=0x20000000 log2_work=6.491853 tx=45 date='2026-10-26T09:52:55Z' progress=1.000000 cache=0.0MiB(44txo)
+2026-10-26T09:52:51Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:51Z [testwallet] AddToWallet c53be900f6e5abe87b8a8c84363e79794308bc6ce5f7c754d39fa836e3cacd0d  new
+2026-10-26T09:52:51Z UpdateTip: new best=0f29a37bdae0afc3b08970a9eb62d1af8d647346386acfc0047593d5f8af6f71 height=45 version=0x20000000 log2_work=6.523562 tx=46 date='2026-10-26T09:52:55Z' progress=1.000000 cache=0.0MiB(45txo)
+2026-10-26T09:52:51Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:51Z UpdateTip: new best=eaa7312c2ba33f4c995e8ac96d2c4d2fe8efc146e78d25eb094098039a195ca3 height=46 version=0x20000000 log2_work=6.554589 tx=47 date='2026-10-26T09:52:55Z' progress=1.000000 cache=0.0MiB(46txo)
+2026-10-26T09:52:51Z [testwallet] AddToWallet fe898882b58c0458f2c1105eeb734b9a57fa337e1993be4a075217e8d0a1bba0  new
+2026-10-26T09:52:51Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:51Z UpdateTip: new best=3dd25874be2597766a7496387c5972b00eea69012370fe5023a2bae053736c9d height=47 version=0x20000000 log2_work=6.584963 tx=48 date='2026-10-26T09:52:55Z' progress=1.000000 cache=0.0MiB(47txo)
+2026-10-26T09:52:51Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:51Z UpdateTip: new best=e4982596946aa077209988218232211c65eb5ce0ca149270bb1c930569176d29 height=48 version=0x20000000 log2_work=6.614710 tx=49 date='2026-10-26T09:52:55Z' progress=1.000000 cache=0.0MiB(48txo)
+2026-10-26T09:52:51Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:51Z UpdateTip: new best=9daa6abb9ed4fc6db9ae2273a9047d353122531006096fef4552ceecbabffc01 height=49 version=0x20000000 log2_work=6.643856 tx=50 date='2026-10-26T09:52:55Z' progress=1.000000 cache=0.0MiB(49txo)
+2026-10-26T09:52:51Z [testwallet] AddToWallet 13bd2cfc8034021877ff29ef8a7394f5840efaf0d81679f9f5a39dda2538bb63  new
+2026-10-26T09:52:51Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:51Z UpdateTip: new best=f1ea8350b19b9f99d6a8757f18f625a3640f0e979b989cf72c678026a6cc9056 height=50 version=0x20000000 log2_work=6.672425 tx=51 date='2026-10-26T09:52:56Z' progress=1.000000 cache=0.0MiB(50txo)
+2026-10-26T09:52:51Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:51Z [testwallet] AddToWallet c11797fd0ff0fedebcaf5891d9efadc54aa3e557ffcbc5dcfbdad7dc846af8e5  new
+2026-10-26T09:52:51Z [testwallet] AddToWallet 81abc5e1b8209fbac7bb55a56a762b37c8942291a0a91bd047a5bab37602d07d  new
+2026-10-26T09:52:51Z [testwallet] AddToWallet 9f7d5ac8cc93659e399136e957c832987bf5bd765730c4a76c39b93474b9c792  new
+2026-10-26T09:52:51Z [testwallet] AddToWallet 22406b9c150c9c041d3949b618a9cc2564f9373a417edaec8c75013da40fe363  new
+2026-10-26T09:52:51Z [testwallet] AddToWallet f5c441c4207f1c61e7f3e059dc7a9629bc6fa699d2c542716b59ec89f56a4e92  new
+2026-10-26T09:52:51Z [testwallet] AddToWallet e1435d1070740d9602a0afdfcd8e82cb896da232d76af0c34c7ac4a566a9e0db  new
+2026-10-26T09:52:51Z UpdateTip: new best=2f08352a0d1837d9241a5affd132bbf1ea44b17a5548c9047796b74bc9011df3 height=51 version=0x20000000 log2_work=6.700440 tx=52 date='2026-10-26T09:52:56Z' progress=1.000000 cache=0.0MiB(51txo)
+2026-10-26T09:52:51Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:51Z UpdateTip: new best=89b95258b8095e16e0ed9987f25a8495582ccea76561f8479924808e167f7612 height=52 version=0x20000000 log2_work=6.727920 tx=53 date='2026-10-26T09:52:56Z' progress=1.000000 cache=0.0MiB(52txo)
+2026-10-26T09:52:51Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:51Z UpdateTip: new best=817820e9d488dfff15a3c478c70dab845dd26285ff054d11505a8eb57d0dc714 height=53 version=0x20000000 log2_work=6.754888 tx=54 date='2026-10-26T09:52:56Z' progress=1.000000 cache=0.0MiB(53txo)
+2026-10-26T09:52:52Z [testwallet] AddToWallet 0b540a095af3c6abee157b85a7ebbef928c917644f8e5a2d64e6637436fefaa0  new
+2026-10-26T09:52:52Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:52Z UpdateTip: new best=28a1e8d01631fd327b391a84550d62bec410bf972791ef50a5950a7de8f52614 height=54 version=0x20000000 log2_work=6.781360 tx=55 date='2026-10-26T09:52:56Z' progress=1.000000 cache=0.0MiB(54txo)
+2026-10-26T09:52:52Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:52Z UpdateTip: new best=fe0eadaad06b290ee6e6adf1409ff5cb56648ba6310b671b80ec40420fce22f4 height=55 version=0x20000000 log2_work=6.807355 tx=56 date='2026-10-26T09:52:56Z' progress=1.000000 cache=0.0MiB(55txo)
+2026-10-26T09:52:52Z [testwallet] AddToWallet 402bfcd1752aec163dd618eed2d0dbefcaa04809c396c58bcd3d1de8a977df96  new
+2026-10-26T09:52:52Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:52Z UpdateTip: new best=2fe22c3850ce710395f15197dfe87bf11dec0ca9cdcd6b4938c897e8c96bc56b height=56 version=0x20000000 log2_work=6.832890 tx=57 date='2026-10-26T09:52:57Z' progress=1.000000 cache=0.0MiB(56txo)
+2026-10-26T09:52:52Z [testwallet] AddToWallet 42b711f45b48be4535db9efece8c7340ba5f612f67ef46047e5c5589ceea61c0  new
+2026-10-26T09:52:52Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:52Z UpdateTip: new best=cf06badb4c22092ff7bdeaa23e370667321304f230b6a2f8d218a86f10550102 height=57 version=0x20000000 log2_work=6.857981 tx=58 date='2026-10-26T09:52:57Z' progress=1.000000 cache=0.0MiB(57txo)
+2026-10-26T09:52:52Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:52Z UpdateTip: new best=7f01436c960eca8dfdde2bebc1e728279f0107dfe5a3b59227818741d48375b4 height=58 version=0x20000000 log2_work=6.882643 tx=59 date='2026-10-26T09:52:57Z' progress=1.000000 cache=0.0MiB(58txo)
+2026-10-26T09:52:52Z [testwallet] AddToWallet e7aed6a9113a4fde36637402b565fdae29d0779a0d37f8a939f16a9b2a771887  new
+2026-10-26T09:52:52Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:52Z UpdateTip: new best=9b28b7a82cb51e71d77b237734216b8ced896a99521312168971940fb48d92d8 height=59 version=0x20000000 log2_work=6.906891 tx=60 date='2026-10-26T09:52:57Z' progress=1.000000 cache=0.0MiB(59txo)
+2026-10-26T09:52:52Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:52Z UpdateTip: new best=459198eebdc678a54380fc40ac1b34e8357d55289eb885adaa97ce01a7fe35c6 height=60 version=0x20000000 log2_work=6.930737 tx=61 date='2026-10-26T09:52:57Z' progress=1.000000 cache=0.0MiB(60txo)
+2026-10-26T09:52:52Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:52Z [testwallet] AddToWallet bf3a188e0be96dd0dbf88881d2d19cd65b0f0d77635a3552ca257400e6e0cd26  new
+2026-10-26T09:52:52Z [testwallet] AddToWallet 303c36f9fadf27051e58363a7edfa4b5da93a8bb857ee4977f911c344ac65d77  new
+2026-10-26T09:52:52Z [testwallet] AddToWallet 57db75fa3377399444ab977cac85f95cdcefbd774e61fbabbfdf6bfdffd13683  new
+2026-10-26T09:52:52Z [testwallet] AddToWallet 9ebf4ac99a56111cd6b6faa5f31589981d9e6c05e9fa19824e4689c4d3033fc0  new
+2026-10-26T09:52:52Z [testwallet] AddToWallet 9a820e77efc58a9f617df06974de518c3c670cfd26ecb95b0c89c69366506113  new
+2026-10-26T09:52:52Z [testwallet] AddToWallet 5ff4fdffb07fa44e14bef744cf28714e7bf3ca838443f287aef6aee2edfb7eda  new
+2026-10-26T09:52:52Z UpdateTip: new best=e7006d37e835e5c35356da8066d68b2a456b3493e64a5f763b667585cb67b497 height=61 version=0x20000000 log2_work=6.954196 tx=62 date='2026-10-26T09:52:57Z' progress=1.000000 cache=0.0MiB(61txo)
+2026-10-26T09:52:52Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:52Z UpdateTip: new best=21b4822e4455cf889c1ad6960e9fc29538e296841c5ce0c324e6f4252c4b4481 height=62 version=0x20000000 log2_work=6.977280 tx=63 date='2026-10-26T09:52:58Z' progress=1.000000 cache=0.0MiB(62txo)
+2026-10-26T09:52:52Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:52Z [testwallet] AddToWallet 69df58b40b4da394927884cc39f35d5f2eabc81892ad6d4988897015a75e1648  new
+2026-10-26T09:52:52Z UpdateTip: new best=1c5b6f8b9228115ff6a3cdf09e6adf8cab6b06a2e2b60a806771b82e8a66e480 height=63 version=0x20000000 log2_work=7.000000 tx=64 date='2026-10-26T09:52:58Z' progress=1.000000 cache=0.0MiB(63txo)
+2026-10-26T09:52:52Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:52Z UpdateTip: new best=1625b48dc937467e5eb8e9edf041f8e22d720fe8e467d91b1af0212edc182c28 height=64 version=0x20000000 log2_work=7.022368 tx=65 date='2026-10-26T09:52:58Z' progress=1.000000 cache=0.0MiB(64txo)
+2026-10-26T09:52:52Z [testwallet] AddToWallet 6667a5a072baf03ce50250f9de6e29c880b855f91f70fe1eaf21dfe5d082bf29  new
+2026-10-26T09:52:52Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:52Z UpdateTip: new best=a7cc6dbca4ccaa84c0dcecbb1672399f5826bee472e2c70584f6571845c8193d height=65 version=0x20000000 log2_work=7.044394 tx=66 date='2026-10-26T09:52:58Z' progress=1.000000 cache=0.0MiB(65txo)
+2026-10-26T09:52:52Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:52Z UpdateTip: new best=dacf2957931098100bbe303197993174954595dbed298aef33b70ac6b30b3fb2 height=66 version=0x20000000 log2_work=7.066089 tx=67 date='2026-10-26T09:52:58Z' progress=1.000000 cache=0.0MiB(66txo)
+2026-10-26T09:52:52Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:53Z UpdateTip: new best=75333c6507720eae8e5196a48b6020eae4433e9e01ca8e9af3647515ea1e8c3f height=67 version=0x20000000 log2_work=7.087463 tx=68 date='2026-10-26T09:52:58Z' progress=1.000000 cache=0.0MiB(67txo)
+2026-10-26T09:52:53Z [testwallet] AddToWallet e04a31e585c0b2e294f58510f45a71fdf11a97cdc9a50342ac65c63777bef7f6  new
+2026-10-26T09:52:53Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:53Z UpdateTip: new best=b49e10a606afa888235c65b3eacba8a75d2b7428e3e4fe4fd9b82b0679d8b2e6 height=68 version=0x20000000 log2_work=7.108524 tx=69 date='2026-10-26T09:52:59Z' progress=1.000000 cache=0.0MiB(68txo)
+2026-10-26T09:52:53Z [testwallet] AddToWallet 3190476786ddbe06cba673f0d11f10a9c1c77a4e06fdab9f5f65fa3f032056be  new
+2026-10-26T09:52:53Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:53Z UpdateTip: new best=9d2a1b34e9caad46864097b04c15c83a4c49b9d89277394a7ceea3ebf76fd9c1 height=69 version=0x20000000 log2_work=7.129283 tx=70 date='2026-10-26T09:52:59Z' progress=1.000000 cache=0.0MiB(69txo)
+2026-10-26T09:52:53Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:53Z UpdateTip: new best=712c1565b80be22aa36493d3e4bb78193f071eb9bd6d4cd3cd089188ff030f1e height=70 version=0x20000000 log2_work=7.149747 tx=71 date='2026-10-26T09:52:59Z' progress=1.000000 cache=0.0MiB(70txo)
+2026-10-26T09:52:53Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:53Z [testwallet] AddToWallet 5038250713d048d5a90311b584be0beff6ff8ffcfeb57cc650eadd71da280d21  new
+2026-10-26T09:52:53Z [testwallet] AddToWallet 7906c4b3a411b24efd8223a4f9a745e71920f724115ded5a4a0859734b819062  new
+2026-10-26T09:52:53Z [testwallet] AddToWallet ae19f97dd8497c0dfb062158f4ffa438d02c245bebda224eb870f24dcc60d9a3  new
+2026-10-26T09:52:53Z [testwallet] AddToWallet 8bfece7246c702664f05934296b96d6bb41ce5fbe018da19844fee70fad78c8d  new
+2026-10-26T09:52:53Z [testwallet] AddToWallet 917c93541f629a6a0ffdcf235a58debc69c498c2a39f8d4cf2b5a324a4c31e99  new
+2026-10-26T09:52:53Z [testwallet] AddToWallet 87e779e8fffeb86f3d445fc8003dc441d94b58f40254c078537212d0b51f6b87  new
+2026-10-26T09:52:53Z UpdateTip: new best=95c693d09c398b78a309da7a636e6798b13915cf353cfdc4a2de7d099926b421 height=71 version=0x20000000 log2_work=7.169925 tx=72 date='2026-10-26T09:52:59Z' progress=1.000000 cache=0.0MiB(71txo)
+2026-10-26T09:52:53Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:53Z UpdateTip: new best=a87ed91e4af8c3f75a97bb61f990562689676b5b0e4917e7bc6a78207276c4aa height=72 version=0x20000000 log2_work=7.189825 tx=73 date='2026-10-26T09:52:59Z' progress=1.000000 cache=0.0MiB(72txo)
+2026-10-26T09:52:53Z [testwallet] AddToWallet 39e7ebcb4188c8ded4c298fb41aa8a72f5d7f76bcf56f83a27e0689308b207bd  new
+2026-10-26T09:52:53Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:53Z UpdateTip: new best=a7c2cf8d71d77579c94a219d51f2c8ee35f3a70cca7d74805b101a424c30fc9c height=73 version=0x20000000 log2_work=7.209453 tx=74 date='2026-10-26T09:52:59Z' progress=1.000000 cache=0.0MiB(73txo)
+2026-10-26T09:52:53Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:53Z [testwallet] AddToWallet 36cd8a6e3b92ef3c926d9c681386cefffb5699e315677d751a3c789f5f5c239f  new
+2026-10-26T09:52:53Z UpdateTip: new best=c68055a37b0caa4799399f96d49c96c35d797e759540355481e302efc69e8f93 height=74 version=0x20000000 log2_work=7.228819 tx=75 date='2026-10-26T09:53:00Z' progress=1.000000 cache=0.0MiB(74txo)
+2026-10-26T09:52:53Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:53Z UpdateTip: new best=23aea79de85ac4c9ac6562c6e079e75f527f070195f2c8bc67e9cf0715309c9b height=75 version=0x20000000 log2_work=7.247928 tx=76 date='2026-10-26T09:53:00Z' progress=1.000000 cache=0.0MiB(75txo)
+2026-10-26T09:52:53Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:53Z UpdateTip: new best=5f7085a3f026ac11741edebec777b0112c45b7e2297ea8b2a8ff5562207d8f4c height=76 version=0x20000000 log2_work=7.266787 tx=77 date='2026-10-26T09:53:00Z' progress=1.000000 cache=0.0MiB(76txo)
+2026-10-26T09:52:53Z [testwallet] AddToWallet afec38e16aea41ee6db83e3c618ed60bcf50001678c6a34e1f462ffc76a203b6  new
+2026-10-26T09:52:53Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:53Z UpdateTip: new best=8b3e0ed53ad951ce823974ddbd49c4cd299734f2d7572dd5bf43f780fc32a32c height=77 version=0x20000000 log2_work=7.285402 tx=78 date='2026-10-26T09:53:00Z' progress=1.000000 cache=0.0MiB(77txo)
+2026-10-26T09:52:53Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:53Z UpdateTip: new best=b5ef74543f92272647dff3b05b0e49bb04533ddecf5e8ce675575c067720abfd height=78 version=0x20000000 log2_work=7.303781 tx=79 date='2026-10-26T09:53:00Z' progress=1.000000 cache=0.0MiB(78txo)
+2026-10-26T09:52:53Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:53Z [testwallet] AddToWallet aa0aa844b29faae0bc5414c1240e239dfc3f289774b8819c374a038e7fa1dec8  new
+2026-10-26T09:52:53Z UpdateTip: new best=c86f32d881cdd15c4362d68dec4c92b355b458b9cedb71792c411e6c5237a327 height=79 version=0x20000000 log2_work=7.321928 tx=80 date='2026-10-26T09:53:00Z' progress=1.000000 cache=0.0MiB(79txo)
+2026-10-26T09:52:53Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:53Z UpdateTip: new best=be6175e266f3a268537665412d58409df83b08c6a1d91d32b38408d0f8d1c011 height=80 version=0x20000000 log2_work=7.339850 tx=81 date='2026-10-26T09:53:01Z' progress=1.000000 cache=0.0MiB(80txo)
+2026-10-26T09:52:53Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:53Z [testwallet] AddToWallet 8faf553cf4b5e319219991d9321dbf3edb51e8b486eeec9a64e1efc22f463e4c  new
+2026-10-26T09:52:53Z [testwallet] AddToWallet bd5a20c1a7626188ee2ea1df2d496cde96d7f935b001b93c36383d00394318a0  new
+2026-10-26T09:52:53Z [testwallet] AddToWallet a21b2d1a147253266a1f205e37ff3e8c9861832daa579ef877bd116f7f017a0b  new
+2026-10-26T09:52:54Z [testwallet] AddToWallet 335c85f8108d5ded90dc94cc76f6f8cd2bcf5b80e0ae1c924a521a5794b73040  new
+2026-10-26T09:52:54Z [testwallet] AddToWallet 5685f2813938a0407a2357bc8730e3bd7b391e73fe6dfe3fdec97f31c942dc80  new
+2026-10-26T09:52:54Z [testwallet] AddToWallet 282813b4169e602f4122a37137ac0f0091e0e53e8c69748037396feeea3facec  new
+2026-10-26T09:52:54Z UpdateTip: new best=3b44dcd7f2b74ba92d8a5958b7655b7fe53201748e5708c0542ef24d5da1c708 height=81 version=0x20000000 log2_work=7.357552 tx=82 date='2026-10-26T09:53:01Z' progress=1.000000 cache=0.0MiB(81txo)
+2026-10-26T09:52:54Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:54Z UpdateTip: new best=b87a7c0947bfb6fa7bde656423b0a43caa1a179a1931e28ab767787f20794e29 height=82 version=0x20000000 log2_work=7.375039 tx=83 date='2026-10-26T09:53:01Z' progress=1.000000 cache=0.0MiB(82txo)
+2026-10-26T09:52:54Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:54Z [testwallet] AddToWallet 49c774a08c3c754f83cc4cbe07e1dec518f5ddbcf0b202684a8ccbf6181fcd50  new
+2026-10-26T09:52:54Z UpdateTip: new best=d5324045b1ad0ad413ab668dd687c026604b508617f45e60f7380de0740db5e3 height=83 version=0x20000000 log2_work=7.392317 tx=84 date='2026-10-26T09:53:01Z' progress=1.000000 cache=0.0MiB(83txo)
+2026-10-26T09:52:54Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:54Z UpdateTip: new best=a8e4a6ebdfca0a371d7755eb87edea103c9a755fedf1dd72873c771a64667ea5 height=84 version=0x20000000 log2_work=7.409391 tx=85 date='2026-10-26T09:53:01Z' progress=1.000000 cache=0.0MiB(84txo)
+2026-10-26T09:52:54Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:54Z UpdateTip: new best=e9f43f4cb44fbaaafd93eb429e16a3a4cd8b9891d0bc548ba023a0c0902e1aa9 height=85 version=0x20000000 log2_work=7.426265 tx=86 date='2026-10-26T09:53:01Z' progress=1.000000 cache=0.0MiB(85txo)
+2026-10-26T09:52:54Z [testwallet] AddToWallet c07691b3254768b2bc1b12dcf690bfdd741c27292145b8ecbcb00b371b508262  new
+2026-10-26T09:52:54Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:54Z UpdateTip: new best=c405a3951407b2a1f2e5e93c36cff26b459fbd6fe45c5e6a4435da45c4f0e60e height=86 version=0x20000000 log2_work=7.442943 tx=87 date='2026-10-26T09:53:02Z' progress=1.000000 cache=0.0MiB(86txo)
+2026-10-26T09:52:54Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:54Z UpdateTip: new best=0743e4ffddbbc770e1a31e9b56eb6abe0f2ff1f034d63df17f6ba590e4979593 height=87 version=0x20000000 log2_work=7.459432 tx=88 date='2026-10-26T09:53:02Z' progress=1.000000 cache=0.0MiB(87txo)
+2026-10-26T09:52:54Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:54Z UpdateTip: new best=e005a703ddab02fc0dd61e7530a0dc60b57a82ac8c1b2f7f66b18feb9a53cb65 height=88 version=0x20000000 log2_work=7.475733 tx=89 date='2026-10-26T09:53:02Z' progress=1.000000 cache=0.0MiB(88txo)
+2026-10-26T09:52:54Z [testwallet] AddToWallet c49bb6f2a19f80c6e1de95a7089e7e2bfd9996aa30abba8dfcbe0c29eca76687  new
+2026-10-26T09:52:54Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:54Z UpdateTip: new best=7dd2f8833cb300bf00e318fccb9710ef160fce2bd09aa67fd6c1147326d53bcf height=89 version=0x20000000 log2_work=7.491853 tx=90 date='2026-10-26T09:53:02Z' progress=1.000000 cache=0.0MiB(89txo)
+2026-10-26T09:52:54Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:54Z [testwallet] AddToWallet b86d4c5f39415573a60d7b59d13facca473f00244ae60738fb102fc72ad9cd04  new
+2026-10-26T09:52:54Z [testwallet] AddToWallet 4db564e957521f92b0cad4dcc683437e634d6f7823db70bcac7aa9d96b0a39ad  new
+2026-10-26T09:52:54Z [testwallet] AddToWallet 0d946bb82924b0183c92bfc0216d4dfee6252b323a835c93f8bc10fd6efa5215  new
+2026-10-26T09:52:54Z [testwallet] AddToWallet a212c4408e49acc5bdbcf9e10caaba534b656cc8b7a8fdb40858f33cb30c5b10  new
+2026-10-26T09:52:54Z [testwallet] AddToWallet b6f56990b576bb8b85b9d2d7131fe0e278d499561ea503c6cbf880faddc6861f  new
+2026-10-26T09:52:54Z [testwallet] AddToWallet b5f3b9b24c9115ccdf1845011bf4d0d56798059d2a23d68d5f02d196df362e7a  new
+2026-10-26T09:52:54Z UpdateTip: new best=95127963274d50a5646043478eec95ef77288969a368591d3b9e46701ea19926 height=90 version=0x20000000 log2_work=7.507795 tx=91 date='2026-10-26T09:53:02Z' progress=1.000000 cache=0.0MiB(90txo)
+2026-10-26T09:52:54Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:54Z UpdateTip: new best=99f74573e98da89634ac10f18097b18b761fe67820ff02e2eef4ffcbe256e699 height=91 version=0x20000000 log2_work=7.523562 tx=92 date='2026-10-26T09:53:02Z' progress=1.000000 cache=0.0MiB(91txo)
+2026-10-26T09:52:54Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:54Z UpdateTip: new best=16a9e9a7fddf78c1c3cf77704da729af4cfb5ea3b6a28549bae13ffd4e18ab3f height=92 version=0x20000000 log2_work=7.539159 tx=93 date='2026-10-26T09:53:03Z' progress=1.000000 cache=0.0MiB(92txo)
+2026-10-26T09:52:54Z [testwallet] AddToWallet 3c014b0aed06fa2c19d9ce22abf9d4ca3b9c5720265e76db93a817ce121377ca  new
+2026-10-26T09:52:54Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:54Z UpdateTip: new best=cc49bd5bf3bf38bbaf7e2ded0248b4c89ab323354f8c3c1404d3044643b69225 height=93 version=0x20000000 log2_work=7.554589 tx=94 date='2026-10-26T09:53:03Z' progress=1.000000 cache=0.0MiB(93txo)
+2026-10-26T09:52:54Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:54Z [testwallet] AddToWallet 6c86c91cf28ca08773884d015facf519c5aebabfc7bf9dcadd6721ff42cc74e2  new
+2026-10-26T09:52:54Z UpdateTip: new best=0d4fdfe2541d72bc66fb7d651adfc84faaa27b7375188724758f36e3007503c1 height=94 version=0x20000000 log2_work=7.569856 tx=95 date='2026-10-26T09:53:03Z' progress=1.000000 cache=0.0MiB(94txo)
+2026-10-26T09:52:54Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:54Z UpdateTip: new best=04b777db0fc80b3ddcc777777b25ad90ceecda8f8082c0451bd1ed5d97f8eb3b height=95 version=0x20000000 log2_work=7.584963 tx=96 date='2026-10-26T09:53:03Z' progress=1.000000 cache=0.0MiB(95txo)
+2026-10-26T09:52:54Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:55Z UpdateTip: new best=0238e72e2c3328ce836420f60f25454791fc2e0e734269d9da75974137512ef0 height=96 version=0x20000000 log2_work=7.599913 tx=97 date='2026-10-26T09:53:03Z' progress=1.000000 cache=0.0MiB(96txo)
+2026-10-26T09:52:55Z [testwallet] AddToWallet 4f705693571bd697f7473295b7dc0941e53b201cc9af088b7a28c47232236805  new
+2026-10-26T09:52:55Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:55Z UpdateTip: new best=bf8e885e7f54bc9ded6963a56f525e69c1bf4f27fe60097b5b1d5397407c363a height=97 version=0x20000000 log2_work=7.614710 tx=98 date='2026-10-26T09:53:03Z' progress=1.000000 cache=0.0MiB(97txo)
+2026-10-26T09:52:55Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:55Z [testwallet] AddToWallet 1bfb912c5e03549594a6029917561325a8e438df259c1487f88005701e0ff38d  new
+2026-10-26T09:52:55Z UpdateTip: new best=1eabe6d9995164b6dca9e42ac6fdff46f2b69a926f68cf40559a29cc9a6df1b3 height=98 version=0x20000000 log2_work=7.629357 tx=99 date='2026-10-26T09:53:04Z' progress=1.000000 cache=0.0MiB(98txo)
+2026-10-26T09:52:55Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:55Z UpdateTip: new best=0590908c86e8f5b37944a75ff7ef3d0d47e1a21bc6eb092d5528926da4b003cc height=99 version=0x20000000 log2_work=7.643856 tx=100 date='2026-10-26T09:53:04Z' progress=1.000000 cache=0.0MiB(99txo)
+2026-10-26T09:52:55Z [testwallet] AddToWallet 91a4097a05fd8c8887b7675dd9edadbbff6978f3e7679ef4c0f4b3ae57dc6af7  new
+2026-10-26T09:52:55Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:55Z UpdateTip: new best=75011fb44eb71b1e83076aa18490a0d0638757d6fb52e1df185d7c4504154ec2 height=100 version=0x20000000 log2_work=7.658211 tx=101 date='2026-10-26T09:53:04Z' progress=1.000000 cache=0.0MiB(100txo)
+2026-10-26T09:52:55Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:55Z [testwallet] AddToWallet f37d354c87996049b2d163d985bf10f959c25a4bd2eadf7b7bc418d9eaf4079b  new
+2026-10-26T09:52:55Z [testwallet] AddToWallet 3f3a570e3710ef874741683d5bd7ee1ca6dd607d2b38ff7b4de890135172797b  new
+2026-10-26T09:52:55Z [testwallet] AddToWallet 9d7eb78e95b940fd411326c6b8d777bca9d78a53744376bf1ff80bd2872784b0  new
+2026-10-26T09:52:55Z [testwallet] AddToWallet aa005a52c973ef6586a6550e175838b7cf6d56bd3377e26c17fd8db7871e5e60  new
+2026-10-26T09:52:55Z [testwallet] AddToWallet 2092277a5fa28039e47c1e19d2b59c568019a4774bc31337c57f076be40434c3  new
+2026-10-26T09:52:55Z [testwallet] AddToWallet c4fb663eb57ca1899b6823c369fd236b66a16557aaeaee8a20540b9a6d97411b  new
+2026-10-26T09:52:55Z UpdateTip: new best=ec60efe3f210fd52d1813b36132ffded0f6391006f6ee3acdfc35a36e2c7f70a height=101 version=0x20000000 log2_work=7.672425 tx=102 date='2026-10-26T09:53:04Z' progress=1.000000 cache=0.0MiB(101txo)
+2026-10-26T09:52:55Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:55Z UpdateTip: new best=a39f9860240fd58b80e30e866929e972f2d4edf916e2b4de59d2935f1b27e031 height=102 version=0x20000000 log2_work=7.686501 tx=103 date='2026-10-26T09:53:04Z' progress=1.000000 cache=0.0MiB(102txo)
+2026-10-26T09:52:55Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:55Z [testwallet] AddToWallet c68a6750a87c50ae4ce87e99befbfc82daa33f86e22fd93b371c6e4f77f7f151  new
+2026-10-26T09:52:55Z UpdateTip: new best=b21e2abe74dd54175ac1854b38e4f7824bfa3c576587e03c8edcb5791abb5333 height=103 version=0x20000000 log2_work=7.700440 tx=104 date='2026-10-26T09:53:04Z' progress=1.000000 cache=0.0MiB(103txo)
+2026-10-26T09:52:55Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops: 400 MWEB weight: 0
+2026-10-26T09:52:55Z UpdateTip: new best=090ec6c01d9fc3f13783ee6143132e5465536c6035920da5157fc5aba7b4bed2 height=104 version=0x20000000 log2_work=7.714246 tx=105 date='2026-10-26T09:53:05Z' progress=1.000000 cache=0.0MiB(104txo)
+2026-10-26T09:52:55Z [testwallet] AddToWallet 7be5ac4e7dfb19c49b65367c26a73d1fe4e64d7ff94b81a9b4535f7b4007b2c2  new
+2026-10-26T09:52:55Z [testwallet] AddToWallet 263e61587a0fdeba2189c0777ebab2cd25a21fc93a6614ebff2fc40f4378f47a  new
+2026-10-26T09:52:55Z [testwallet] AddToWallet 624710f69fc1f5f2a8db74dba5eab0d5fa08dade343a4b9c5e5cce70d4409102  new
+2026-10-26T10:02:53Z Potential stale tip detected, will try using extra outbound peer (last tip update: 598 seconds ago)
+2026-10-26T10:05:53Z Potential stale tip detected, will try using extra outbound peer (last tip update: 778 seconds ago)
+2026-10-26T10:08:53Z Potential stale tip detected, will try using extra outbound peer (last tip update: 958 seconds ago)
+2026-10-26T10:11:53Z Potential stale tip detected, will try using extra outbound peer (last tip update: 1138 seconds ago)
+2026-10-26T10:14:42Z FlushStateToDisk: write coins cache to disk (104 coins, 14kB) started
+2026-10-26T10:14:42Z FlushStateToDisk: write coins cache to disk (104 coins, 14kB) completed (0.02s)
+2026-10-26T10:14:53Z Potential stale tip detected, will try using extra outbound peer (last tip update: 1318 seconds ago)
+2026-10-26T10:17:53Z Potential stale tip detected, will try using extra outbound peer (last tip update: 1498 seconds ago)
+2026-10-26T10:20:53Z Potential stale tip detected, will try using extra outbound peer (last tip update: 1678 seconds ago)
+2026-10-26T10:23:53Z Potential stale tip detected, will try using extra outbound peer (last tip update: 1858 seconds ago)
+2026-10-26T10:26:53Z Potential stale tip detected, will try using extra outbound peer (last tip update: 2038 seconds ago)
+2026-10-26T10:29:53Z Potential stale tip detected, will try using extra outbound peer (last tip update: 2218 seconds ago)
+2026-10-26T14:57:17Z Potential stale tip detected, will try using extra outbound peer (last tip update: 18262 seconds ago)
+2026-10-26T15:00:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 18443 seconds ago)
+2026-10-26T15:03:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 18623 seconds ago)
+2026-10-26T15:06:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 18803 seconds ago)
+2026-10-26T15:09:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 18983 seconds ago)
+2026-10-26T15:12:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 19163 seconds ago)
+2026-10-26T15:15:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 19343 seconds ago)
+2026-10-26T15:18:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 19523 seconds ago)
+2026-10-26T15:21:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 19703 seconds ago)
+2026-10-26T15:24:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 19883 seconds ago)
+2026-10-26T15:27:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 20063 seconds ago)
+2026-10-26T15:30:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 20243 seconds ago)
+2026-10-26T15:33:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 20423 seconds ago)
+2026-10-26T15:36:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 20603 seconds ago)
+2026-10-26T15:39:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 20783 seconds ago)
+2026-10-26T15:42:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 20963 seconds ago)
+2026-10-26T15:45:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 21143 seconds ago)
+2026-10-26T15:48:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 21323 seconds ago)
+2026-10-26T15:51:18Z Potential stale tip detected, will try using extra outbound peer (last tip update: 21503 seconds ago)
+2026-10-26T15:54:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 21688 seconds ago)
+2026-10-26T15:57:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 21868 seconds ago)
+2026-10-26T16:00:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 22048 seconds ago)
+2026-10-26T16:03:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 22228 seconds ago)
+2026-10-26T16:06:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 22408 seconds ago)
+2026-10-26T16:09:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 22588 seconds ago)
+2026-10-26T16:12:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 22768 seconds ago)
+2026-10-26T16:15:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 22948 seconds ago)
+2026-10-26T16:18:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 23128 seconds ago)
+2026-10-26T16:21:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 23308 seconds ago)
+2026-10-26T16:24:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 23488 seconds ago)
+2026-10-26T16:27:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 23668 seconds ago)
+2026-10-26T16:30:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 23848 seconds ago)
+2026-10-26T16:33:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 24028 seconds ago)
+2026-10-26T16:36:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 24208 seconds ago)
+2026-10-26T16:39:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 24388 seconds ago)
+2026-10-26T16:42:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 24568 seconds ago)
+2026-10-26T16:45:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 24748 seconds ago)
+2026-10-26T16:48:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 24928 seconds ago)
+2026-10-26T16:51:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 25108 seconds ago)
+2026-10-26T16:54:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 25288 seconds ago)
+2026-10-26T16:57:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 25468 seconds ago)
+2026-10-26T17:00:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 25648 seconds ago)
+2026-10-26T17:03:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 25828 seconds ago)
+2026-10-26T17:06:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 26008 seconds ago)
+2026-10-26T17:09:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 26188 seconds ago)
+2026-10-26T17:12:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 26368 seconds ago)
+2026-10-26T17:15:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 26548 seconds ago)
+2026-10-26T17:18:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 26728 seconds ago)
+2026-10-26T17:21:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 26908 seconds ago)
+2026-10-26T17:24:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 27088 seconds ago)
+2026-10-26T17:27:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 27268 seconds ago)
+2026-10-26T17:30:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 27448 seconds ago)
+2026-10-26T17:33:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 27628 seconds ago)
+2026-10-26T17:36:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 27808 seconds ago)
+2026-10-26T17:39:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 27988 seconds ago)
+2026-10-26T17:42:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 28168 seconds ago)
+2026-10-26T17:45:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 28348 seconds ago)
+2026-10-26T17:48:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 28528 seconds ago)
+2026-10-26T17:51:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 28708 seconds ago)
+2026-10-26T17:54:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 28888 seconds ago)
+2026-10-26T17:57:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 29068 seconds ago)
+2026-10-26T18:00:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 29248 seconds ago)
+2026-10-26T18:03:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 29428 seconds ago)
+2026-10-26T18:06:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 29608 seconds ago)
+2026-10-26T18:09:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 29788 seconds ago)
+2026-10-26T18:12:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 29968 seconds ago)
+2026-10-26T18:15:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 30148 seconds ago)
+2026-10-26T18:18:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 30328 seconds ago)
+2026-10-26T18:21:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 30508 seconds ago)
+2026-10-26T18:24:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 30688 seconds ago)
+2026-10-26T18:27:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 30868 seconds ago)
+2026-10-26T18:30:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 31048 seconds ago)
+2026-10-26T18:33:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 31228 seconds ago)
+2026-10-26T18:36:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 31408 seconds ago)
+2026-10-26T18:39:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 31588 seconds ago)
+2026-10-26T18:42:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 31768 seconds ago)
+2026-10-26T18:45:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 31948 seconds ago)
+2026-10-26T18:48:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 32128 seconds ago)
+2026-10-26T18:51:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 32308 seconds ago)
+2026-10-26T18:54:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 32488 seconds ago)
+2026-10-26T18:57:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 32668 seconds ago)
+2026-10-26T19:00:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 32848 seconds ago)
+2026-10-26T19:03:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 33028 seconds ago)
+2026-10-26T19:06:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 33208 seconds ago)
+2026-10-26T19:09:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 33388 seconds ago)
+2026-10-26T19:12:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 33568 seconds ago)
+2026-10-26T19:15:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 33748 seconds ago)
+2026-10-26T19:19:33Z Potential stale tip detected, will try using extra outbound peer (last tip update: 33998 seconds ago)
+2026-10-26T19:22:33Z Potential stale tip detected, will try using extra outbound peer (last tip update: 34178 seconds ago)
+2026-10-26T19:25:33Z Potential stale tip detected, will try using extra outbound peer (last tip update: 34358 seconds ago)
+2026-10-26T19:28:34Z Potential stale tip detected, will try using extra outbound peer (last tip update: 34538 seconds ago)
+2026-10-26T19:31:34Z Potential stale tip detected, will try using extra outbound peer (last tip update: 34719 seconds ago)
+2026-10-26T19:34:34Z Potential stale tip detected, will try using extra outbound peer (last tip update: 34899 seconds ago)
+2026-10-26T19:37:34Z Potential stale tip detected, will try using extra outbound peer (last tip update: 35079 seconds ago)
+2026-10-26T19:40:34Z Potential stale tip detected, will try using extra outbound peer (last tip update: 35259 seconds ago)

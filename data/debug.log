@@ -1,0 +1,126 @@
+
+
+
+
+
+2026-10-26T09:03:52Z Daxstrov Core version v0.21.5.8-gec1b6489a900d09cf5991e220dce089c77a232a2 (release build)
+2026-10-26T09:03:52Z Assuming ancestors of block 80cdb35c080484df5bf384b311fde3c4694d3405765bc0f596e9eb369ff286e5 have valid signatures.
+2026-10-26T09:03:52Z Setting nMinimumChainWork=00000000000000000000000000000000000000000000146878abee06fa883e0a
+2026-10-26T09:03:52Z Using the 'shani(1way,2way)' SHA256 implementation
+2026-10-26T09:03:52Z Using RdSeed as additional entropy source
+2026-10-26T09:03:52Z Using RdRand as an additional entropy source
+2026-10-26T09:03:52Z Default data directory /home/abhishek/.Daxstrov
+2026-10-26T09:03:52Z Using data directory /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data
+2026-10-26T09:03:52Z Config file: /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/Daxstrov.conf (not found, skipping)
+2026-10-26T09:03:52Z Command-line arg: datadir="./data"
+2026-10-26T09:03:52Z Using at most 125 automatic connections (10240 file descriptors available)
+2026-10-26T09:03:52Z Warning: relative datadir option './data' specified, which will be interpreted relative to the current working directory '/mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master'. This is fragile, because if Daxstrov is started in the future from a different location, it will be unable to locate the current data files. There could also be data loss if Daxstrov is started while in a temporary directory.
+2026-10-26T09:03:52Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2026-10-26T09:03:52Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2026-10-26T09:03:52Z Script verification uses 1 additional threads
+2026-10-26T09:03:52Z scheduler thread start
+2026-10-26T09:03:53Z HTTP: creating work queue of depth 16
+2026-10-26T09:03:53Z Using random cookie authentication.
+2026-10-26T09:03:53Z Generated RPC authentication cookie /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/.cookie
+2026-10-26T09:03:53Z HTTP: starting 4 worker threads
+2026-10-26T09:03:53Z Using wallet directory /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data
+2026-10-26T09:03:53Z init message: Verifying wallet(s)...
+2026-10-26T09:03:53Z init message: Loading banlist...
+2026-10-26T09:03:53Z ERROR: DeserializeFileDB: Failed to open file /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/banlist.dat
+2026-10-26T09:03:53Z Invalid or missing banlist.dat; recreating
+2026-10-26T09:03:53Z SetNetworkActive: true
+2026-10-26T09:03:53Z Using /16 prefix for IP bucketing
+2026-10-26T09:03:53Z Cache configuration:
+2026-10-26T09:03:53Z * Using 2.0 MiB for block index database
+2026-10-26T09:03:53Z * Using 56.0 MiB for basic block filter index database
+2026-10-26T09:03:53Z * Using 8.0 MiB for chain state database
+2026-10-26T09:03:53Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2026-10-26T09:03:53Z init message: Loading block index...
+2026-10-26T09:03:53Z Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2026-10-26T09:03:53Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/blocks/index
+2026-10-26T09:03:53Z Opened LevelDB successfully
+2026-10-26T09:03:53Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/blocks/index: 0000000000000000
+2026-10-26T09:03:53Z LoadBlockIndexDB: last block file = 0
+2026-10-26T09:03:53Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2026-10-26T09:03:53Z Checking all blk files are present...
+2026-10-26T09:03:53Z Initializing databases...
+2026-10-26T09:03:53Z Pre-allocating up to position 0x1000000 in blk00000.dat
+2026-10-26T09:04:03Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/chainstate
+2026-10-26T09:04:04Z Opened LevelDB successfully
+2026-10-26T09:04:04Z Wrote new obfuscate key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/chainstate: 5a8defa5d2cd5018
+2026-10-26T09:04:04Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/chainstate: 5a8defa5d2cd5018
+2026-10-26T09:04:04Z Create(75) - File /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/leaf000000.dat does not exist. Creating it now.
+2026-10-26T09:04:04Z Create(75) - File /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/O000000.dat does not exist. Creating it now.
+2026-10-26T09:04:04Z init message: Rewinding blocks...
+2026-10-26T09:04:04Z  block index           10996ms
+2026-10-26T09:04:04Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/indexes/blockfilter/basic/db
+2026-10-26T09:04:04Z Opened LevelDB successfully
+2026-10-26T09:04:04Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/indexes/blockfilter/basic/db: 0000000000000000
+2026-10-26T09:04:04Z basic block filter index thread start
+2026-10-26T09:04:04Z basic block filter index is enabled
+2026-10-26T09:04:04Z basic block filter index thread exit
+2026-10-26T09:04:04Z loadblk thread start
+2026-10-26T09:04:04Z ERROR: ReadBlockFromDisk: Errors in block header at FlatFilePos(nFile=0, nPos=8)
+2026-10-26T09:04:04Z *** Failed to read block
+2026-10-26T09:04:04Z Error: A fatal internal error occurred, see debug.log for details
+
+
+
+
+
+2026-10-26T09:12:17Z Daxstrov Core version v0.21.5.8-gec1b6489a900d09cf5991e220dce089c77a232a2 (release build)
+2026-10-26T09:12:17Z Assuming ancestors of block 80cdb35c080484df5bf384b311fde3c4694d3405765bc0f596e9eb369ff286e5 have valid signatures.
+2026-10-26T09:12:17Z Setting nMinimumChainWork=00000000000000000000000000000000000000000000146878abee06fa883e0a
+2026-10-26T09:12:17Z Using the 'shani(1way,2way)' SHA256 implementation
+2026-10-26T09:12:17Z Using RdSeed as additional entropy source
+2026-10-26T09:12:17Z Using RdRand as an additional entropy source
+2026-10-26T09:12:17Z Default data directory /home/abhishek/.Daxstrov
+2026-10-26T09:12:17Z Using data directory /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data
+2026-10-26T09:12:17Z Config file: /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/Daxstrov.conf (not found, skipping)
+2026-10-26T09:12:17Z Command-line arg: datadir="./data"
+2026-10-26T09:12:17Z Using at most 125 automatic connections (10240 file descriptors available)
+2026-10-26T09:12:17Z Warning: relative datadir option './data' specified, which will be interpreted relative to the current working directory '/mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master'. This is fragile, because if Daxstrov is started in the future from a different location, it will be unable to locate the current data files. There could also be data loss if Daxstrov is started while in a temporary directory.
+2026-10-26T09:12:17Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2026-10-26T09:12:17Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2026-10-26T09:12:17Z Script verification uses 1 additional threads
+2026-10-26T09:12:17Z scheduler thread start
+2026-10-26T09:12:17Z HTTP: creating work queue of depth 16
+2026-10-26T09:12:17Z Using random cookie authentication.
+2026-10-26T09:12:17Z Generated RPC authentication cookie /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/.cookie
+2026-10-26T09:12:17Z HTTP: starting 4 worker threads
+2026-10-26T09:12:17Z Using wallet directory /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data
+2026-10-26T09:12:17Z init message: Verifying wallet(s)...
+2026-10-26T09:12:17Z init message: Loading banlist...
+2026-10-26T09:12:17Z SetNetworkActive: true
+2026-10-26T09:12:17Z Using /16 prefix for IP bucketing
+2026-10-26T09:12:17Z Cache configuration:
+2026-10-26T09:12:18Z * Using 2.0 MiB for block index database
+2026-10-26T09:12:18Z * Using 56.0 MiB for basic block filter index database
+2026-10-26T09:12:18Z * Using 8.0 MiB for chain state database
+2026-10-26T09:12:18Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2026-10-26T09:12:18Z init message: Loading block index...
+2026-10-26T09:12:18Z Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2026-10-26T09:12:18Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/blocks/index
+2026-10-26T09:12:18Z Opened LevelDB successfully
+2026-10-26T09:12:18Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/blocks/index: 0000000000000000
+2026-10-26T09:12:18Z LoadBlockIndexDB: last block file = 0
+2026-10-26T09:12:18Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2026-10-26T09:12:18Z Checking all blk files are present...
+2026-10-26T09:12:18Z Initializing databases...
+2026-10-26T09:12:18Z Pre-allocating up to position 0x1000000 in blk00000.dat
+2026-10-26T09:12:27Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/chainstate
+2026-10-26T09:12:27Z Opened LevelDB successfully
+2026-10-26T09:12:27Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/chainstate: 5a8defa5d2cd5018
+2026-10-26T09:12:28Z init message: Rewinding blocks...
+2026-10-26T09:12:28Z  block index           10028ms
+2026-10-26T09:12:28Z Opening LevelDB in /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/indexes/blockfilter/basic/db
+2026-10-26T09:12:28Z Opened LevelDB successfully
+2026-10-26T09:12:28Z Using obfuscation key for /mnt/c/Users/abhishek/Downloads/litecoin-master/litecoin-master/./data/indexes/blockfilter/basic/db: 0000000000000000
+2026-10-26T09:12:28Z basic block filter index thread start
+2026-10-26T09:12:28Z basic block filter index is enabled
+2026-10-26T09:12:28Z basic block filter index thread exit
+2026-10-26T09:12:28Z loadblk thread start
+2026-10-26T09:12:28Z ERROR: ReadBlockFromDisk: Errors in block header at FlatFilePos(nFile=0, nPos=8)
+2026-10-26T09:12:28Z *** Failed to read block
+2026-10-26T09:12:28Z Error: A fatal internal error occurred, see debug.log for details
+2026-10-26T09:12:28Z Shutdown: In progress...
